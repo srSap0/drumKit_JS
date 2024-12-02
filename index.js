@@ -12,6 +12,7 @@ for (var i = 0; i < numeroDeTambores; i++) {
 
 document.addEventListener("keydown", function (event) {
   makeSound(event.key);
+  buttonAnimation(event.key);
 });
 
 function makeSound(key) {
